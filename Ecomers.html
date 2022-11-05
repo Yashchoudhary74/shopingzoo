@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        body {
+            background-image: url(https://www.chetu.com/img/retail/e-commerce/sliderbg/e-commerce-hero.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            /*height: 100vh;*/
+            width: 100vw;
+        }
+
+        .navbar {
+            border: 1px solid black;
+            height: 91px;
+            width: 100vw;
+            position: relative;
+            top: -10px;
+
+        }
+
+        h1 {
+            font-style: italic;
+            font-family: cursive;
+            font-size: 39px;
+            margin: 1px;
+            padding: 18px;
+            color: #0014ff;
+            background-image: url(https://png.pngtree.com/thumb_back/fh260/background/20190221/ourmid/pngtree-simple-gradient-e-commerce-web-page-image_20835.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            animation: blink 1s linear  infinite alternate ;
+            text-shadow: 2px 2px black;
+        }
+        @keyframes blink {
+            from{
+                color: hsl(54, 98%, 51%);
+               
+            }
+            to{
+                color: red;
+            }
+            
+        }
+
+        ul {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+           
+
+        }
+
+        li {
+            list-style: none;
+            border: 1px solid black;
+            border-radius: 100px;
+            padding: 33px;
+            margin: 13px;
+            font-weight: bold;
+            box-shadow: 2px 2px black;
+
+        }
+
+        input {
+            position: relative;
+            top: -51px;
+            left: 602px;
+        }
+
+        button {
+            position: relative;
+            top: -51px;
+            left: 602px;
+        }
+
+        img {
+            width: 65px;
+            height: 65px;
+        }
+
+        
+        .sell{
+          
+            border-radius: 0px;
+            box-shadow: none;
+            width: 200px;
+            height: 200px;
+        
+        }
+
+        .sellimg{
+            width: 265px;
+            height: 265px;
+            margin: -32px;
+        }
+
+        hr{
+            border: 0.5px solid black;
+            
+        }
+    </style>
+    <title>welcome to ShoppingZoo</title>
+</head>
+
+<body>
+    <header class="navbar">
+        <h1>ShoppingZoo</h1>
+        <input type="text" placeholder="Search the product">
+        <button>Search</button>
+    </header>
+    <div>
+        <ul>
+            <li><img src="https://purepng.com/public/uploads/large/purepng.com-women-dressclothingwomen-dressfashion-women-dress-cloth-apparel-631522326949yy7yw.png"
+                    alt=""><br> Fashion</li>
+            <li><img src="https://freepngimg.com/thumb/refrigerator/5-2-refrigerator-png-picture-thumb.png" alt=""><br>
+                Electronics</li>
+            <li><img src="https://www.pngmart.com/files/15/Apple-iPhone-11-PNG-Image.png"
+                    alt=""><br> Mobiles</li>
+            <li><img src="https://www.pngmart.com/files/7/Grocery-PNG-Transparent-Image.png" alt=""><br>
+                Grocery</li>
+            <li><img src="https://www.pngmart.com/files/4/Cooking-PNG-Image.png" alt=""><br>
+                Kitchen</li>
+            <li><img src="https://purepng.com/public/uploads/large/purepng.com-barbie-dollbarbiefashion-dolltoybusinesswomanbild-lilli-17015285270282zoe5.png"
+                    alt=""><br> Toys</li>
+
+        </ul>
+    </div>
+    <hr>
+    <br><br>
+
+    <div class="discount">
+        <ul class="sellSec">
+      <li class="sell"><img src="https://png.pngtree.com/png-clipart/20200701/original/pngtree-mega-sale-banner-vector-template-design-png-image_5415599.jpg" alt="" class="sellimg"></li>
+      <li class="sell"><img src="https://indiater.com/wp-content/uploads/2019/10/Biggest-Diwali-Festival-Sale-offer-990x990.jpg" alt="" class="sellimg"></li>
+      <li class="sell"><img src="https://c8.alamy.com/zooms/9/05f2d5053f534b639bfcc6ca34097076/2eg5a3e.jpg" alt="" class="sellimg"></li>
+      <li class="sell"><img src="https://i.pinimg.com/736x/62/58/6a/62586aa3ba0fe58918825c75864a0625.jpg" alt="" class="sellimg"></li>
+    </ul>
+    </div>
+</body>
+
+</html>
